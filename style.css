@@ -68,6 +68,10 @@ display:flex;
     display: block;
   }
 
+  .sentence-photo{
+  display:block;
+  }
+
   /* サイドバーを上に移動 */
   .sidebar {
     position: static;
@@ -86,4 +90,9 @@ display:flex;
     margin-left: 0;
   }
 
+  img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
 }
