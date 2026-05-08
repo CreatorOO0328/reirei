@@ -62,7 +62,28 @@ display:flex;
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background: red;
+
+  /* 横並び解除 */
+  .layout {
+    display: block;
   }
+
+  /* サイドバーを上に移動 */
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  /* mainのズレ解除 */
+  main {
+    margin-left: 0;
+  }
+
+  /* 人気記事も下に流す */
+  .right {
+    width: 100%;
+    margin-left: 0;
+  }
+
 }
