@@ -11,7 +11,7 @@ position:fixed;
 left:0px;
 top:0px;
 width:200px;
-height:100vh;/*backgroundの高さ調節*/
+height:3000px;/*backgroundの高さ調節*/
 background:#eee;
 padding:20px;
 }
@@ -26,6 +26,7 @@ color:rgb(240, 133, 169);
 .sidebar ul{
 list-style:none;
 padding:0px;/*liの文章と左側がくっつくように*/
+text-decoration:none;
 }
 
 main{
@@ -60,3 +61,14 @@ margin:50px;
 display:flex;
 }
 
+@media screen and (max-width: 768px) {
+
+  .layout {
+    display: block;
+  }
+
+  .sentence-photo {
+    display: block;
+  }
+
+}
