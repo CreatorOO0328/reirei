@@ -95,4 +95,8 @@ display:flex;
     height: auto;
     margin: 10px 0;
   }
+
+  .sentece{
+  width:100%;
+  }
 }
